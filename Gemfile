@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'roo', '1.2.3'
+gem 'roo', '1.11.2'
