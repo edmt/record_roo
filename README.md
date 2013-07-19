@@ -53,4 +53,12 @@ Keep in mind that for the desired result, you must specify the correct order of 
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-Thank you! ಠ_ಠ
+## Credits
+
+RecordRoo is built on top of [Roo](https://github.com/Empact/roo), a Ruby gem that implements read access for all spreadsheet types, among other things.
+
+## Anything we missed?
+
+If there is anything at all that you need or want to know, please feel free to open a Issue.
+
+Thank you! ಠ‿ಠ
