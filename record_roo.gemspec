@@ -6,11 +6,11 @@ require 'record_roo/version'
 Gem::Specification.new do |spec|
   spec.name          = "record_roo"
   spec.version       = RecordRoo::VERSION
-  spec.authors       = ["Daniel Martinez"]
-  spec.email         = ["eduardodaniel2@gmail.com"]
+  spec.authors       = ["Daniel Martinez", "Uriel Molina"]
+  spec.email         = ["eduardodaniel2@gmail.com", "uriel85@gmail.com"]
   spec.description   = %q{Easy object mapping from spreadsheets}
   spec.summary       = %q{It provides a way to obtain an object that wraps a row within a spreadsheet}
-  spec.homepage      = "http://ochobits.org"
+  spec.homepage      = "https://github.com/edmt/record_roo"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "roo", "~> 1.11.2"
 end
